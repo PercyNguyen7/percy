@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="index.js" defer></script>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="icon" href="assets/images/icons/logo-dark.svg" type="image/svg+xml"> -->
+
+    <link rel="icon" href="assets/images/icons/logo-dark.ico" sizes="any"> 
+    <link rel="icon" href="assets/images/icons/logo-dark.svg" type="image/svg+xml"> 
+    
+    <title>Percy Nguyen - Portfolio Website</title>
+</head>
+
+<body>
+    <header>
+        <div id="nav-top" class="nav-top flex vintage-trigger" data-hide-bg="false">
+            <div class="logo-wrapper flex">
+                <img src="assets/images/icons/logo.svg" alt="" class="logo">
+                <!-- <h2 class="logo ff-serif fs-600 text-yellow">PN</h2> -->
+            </div>
+            <div id="nav-toggle-button" class="pointer-cursor nav-toggle-button" aria-expanded="false">
+                <img src="assets/images/icons/hamburger.png" alt="">
+            </div>
+        </div>
+
+        <nav id="primary-navigation" class="primary-navigation vintage-trigger" data-visible="false">
+            <div id="nav-menu" class="nav-menu flex">
+                <span class="ff-serif fs-700 text-yellow">INTRODUCTION</span>
+                <span class="ff-serif fs-700 text-yellow">LATEST WORKS</span>
+                <span class="ff-serif fs-700 text-yellow">CONTACT ME</span>
+                <span class="ff-serif fs-700 text-yellow">BIBLIOGRAPHY</span>
+            </div>
+        </nav>
+    </header>
+
+    <div id="zoomDisplay" class="img-zoom-area flex" data-visible="false">
+        <div id="zoom-close-button" class="ff-serif text-yellow img-zoom-button ">X</div>
+        <div id="zoomed-image-wrapper" class="img-zoom-wrapper-vertical flex">
+            <img id="zoomed-image" src="assets/images/illustration/walk-the-talk.png" alt="">
+        </div>
+    </div>
+
+    <div id="top-button" class="top-button pointer-cursor ff-serif fs-800 text-yellow flex vintage-trigger">
+        <img src="assets/images/icons/arrow-up.png" alt="">
+    </div>
+
+    <div id="loading-page">
+        <div id="left-door" class="left-door flex">
+            <img id="logo-door" class="flicker-1" src="assets/images/icons/logo.svg" alt="">
+        </div>
+        <div id="right-door" class="right-door flex">
+            <h3 id="load-message-door" class="logo ff-serif fs-500 text-yellow">Setting up your seat...</h3>
+        </div>
+        
+        
+    </div>
+
+    <div id="film-grain-overlay" class="no-display film-grain"></div>
+    <div id="symbol-bg" class="symbol-bg vintage-trigger"> </div>
+    <div id="home" class="content-area vintage-trigger">
+        <div class="title-wrapper flex">
+
+            <div class="introduction-message flex slide-in-left ">
+                <h2 class="introduction-text fs-500 ff-serif text-gray">hey there! I'm <span class="text-yellow">Per—</span>               </h2>
+                <!-- <div class="star-wrapper">
+                    <img class="star" src="assets/images/star.png" alt="">
+                </div> -->
+            </div>
+
+            <div id="wave-img-wrapper" class="wave-img-wrapper flex slide-in-bottom">
+                <div class="circle"></div>
+                <img class="wave-img dance-trigger" src="assets/images/clown/clown-wave-2.png" alt="">
+                <img class="stare-img dance-trigger" src="assets/images/clown/clown-stare-2.png" alt="">
+            </div>
+
+        </div>
+
+        <!-- LINES TOP -->
+        <div class="line"></div>
+      
+
+        <div class="introduction-wrapper flex">
+            <div id="experience-button" class="experience-button pointer-cursor ff-serif fs-700 text-yellow flex">
+                <img src="assets/images/icons/sound.png" alt="">
+            </div>
+            <div id="introduction-img-wrapper" class="introduction-img-wrapper flex">
+                <img src="assets/images/prof-pic-intro.png" alt="">
+            </div>
+            <div class="introduction-message-real flex">
+                <h3 class="fs-500 ff-serif text-gray">Nope, that's <span class="ff-serif fs-500 text-yellow">Godric</span>, one of my many creations.</h3>
+                <h2 class="fs-600 ff-serif text-gray"> I'm <span class="ff-serif fs-700 text-yellow">Percy Nguyen</span>!</h2>
+            </div>
+       
+        </div>
+       
+
+
+        <div class="line"></div>
+        <div class="line-half"></div>
+        <div class="line-quarter"></div>
+        <div class="artist-wrapper content-area-90 flex">
+            <div class="content-area-90 flex flex-right">
+                <h1 class="artist-text text-right fs-700 ff-serif text-white ">Interdisciplinary Artist</h1>
+            </div>
+        </div>
+
+        <!-- LINES -->
+        <div class="line-quarter align-right"></div>
+        <div class="line-half align-right "></div>
+        <div class="line"></div>
+
+        <div class="greet-left-line"></div>
+        <div class="content-area-90">
+            <div class="greet-wrapper">
+                <h2 class="fs-600 ff-serif text-yellow text-right">Who am I?</h2>
+                <p class="fs-400 ff-sans-cond text-gray">My name's Dat but you could call me Percy. Born and raised in
+                    Vietnam, I came to Canada in 2015. I am now a Montreal based artist who aspires to sprinkle
+                    a pinch of creativity to the web development world.
+                </p>
+                <div class="img-wrapper-2 zoomables">
+                    <img class="greet-img" src="assets/images/clown/clown-greet-3.png" alt="">
+                </div>
+                <!-- <h2 class="fs-600 ff-serif text-yellow">Latest Works</h2> -->
+                <!-- <p class="fs-400 ff-sans-cond text-gray">The following are my works from different disciplines. </p> -->
+            </div>
+        </div>
+
+        <section id="works-display-section" class="content-area-100">
+            <h2 class="fs-700 ff-serif text-yellow width-90">Latest Works</h2>
+            <div id="discipline-wrapper" class=" discipline-wrapper flex">
+                <div class="lean-wall-wrapper flex dance-trigger">
+                    <img src="assets/images/clown/lean-wall-3.png" alt="">
+                </div>
+                <div class="line"></div>
+                <div class="discipline flex">
+                    <!-- <div class="star-wrapper-discipline">
+                        <img class="star" src="assets/images/star.png" alt="">
+                    </div> -->
+                    <a class="fs-500 ff-serif text-yellow">Illustration</a>
+                    <div class="ace-img-wrapper">
+                        <img src="assets/images/suits-symbols/ace.png" alt="">
+                    </div>
+                    <p class="fs-400 ff-serif text-yellow">01</p>
+                </div>
+                <div class="discipline flex">
+                    <a class="fs-500 ff-serif text-yellow">Graphic Design</a>
+                    <div class="ace-img-wrapper">
+                        <img src="assets/images/suits-symbols/diamond.png" alt="">
+                    </div>
+                    <p class="fs-400 ff-serif text-yellow">02</p>
+                </div>
+
+                <div class="discipline flex">
+                    <a class="fs-500 ff-serif text-yellow">3D Modelling</a>
+                    <div class="ace-img-wrapper">
+                        <img src="assets/images/suits-symbols/club.png" alt="">
+                    </div>
+                    <p class="fs-400 ff-serif text-yellow">03</p>
+                </div>
+
+                <div class="discipline flex">
+                    <a class="fs-500 ff-serif text-yellow">Game Design</a>
+                    <div class="ace-img-wrapper">
+                        <img src="assets/images/suits-symbols/heart.png" alt="">
+                    </div>
+                    <p class="fs-400 ff-serif text-yellow">04</p>
+                </div>
+
+                <div class="discipline flex ">
+                    <a class="fs-500 ff-serif text-yellow">Web Development</a>
+                    <div class="ace-img-wrapper">
+                        <img src="assets/images/suits-symbols/joker.png" alt="">
+                    </div>
+                    <p class="fs-400 ff-serif text-yellow">05</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Illustration Section  -->
+        <section class="no-display discipline-sections">
+            <div class="top-right-corner-lines">
+                <div class="top-overlap-line"></div>
+                <div class="right-overlap-line"></div>
+            </div>
+
+            <div id="illustration-section" class="illustration-section sections">
+                <div class="content-area-90">
+                    <div>
+                        <h2 class="fs-600 ff-serif text-yellow inline">Illustration</h2>
+                        <!-- <div class="star-wrapper">
+                            <img class="star" src="assets/images/star.png" alt="">
+                        </div> -->
+                    </div>
+                    <div class="item flex">
+                        <div class="img-wrapper zoomables flex">
+                            <img class="drawings-vertical" src="assets/images/illustration/fasa-2.png" alt="">
+                        </div>
+                        <div class="item-description item-description-vertical">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">FASA's Lunar New Years Riso Prints</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">A comission by the Fine Arts
+                                Assossiation Alliance of Concordia for Lunar New Year celebration 2022! </p>
+
+                            <p class=" fs-400 ff-sans-cond text-gray text-left"> Since the art piece is a riso print, there
+                                may only be a maximum of 4 colors. I first chose Yellow to reflect the beauty of the ochna
+                                integerrima,the yellow mai hoa mai vàng in Vietnamese, a vital component of Tet (Vietnamese Lunar New Year). The second color, red, symbolizes good fortune and compliments the striking yellow. Any other colors in between the two is a mix of the two in different opacity.
+                            </p>
+
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">
+                                The finished project was printed out and given in red envelope to celebrate with any
+                                lucky passerbys! </p>
+                                
+                            <p class=" fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                            Photoshop</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">January 2022 </h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item flex">
+                        <div class="item-description item-description-vertical">
+                            <h3 class="fs-500 ff-serif text-yellow text-right">Rebirth</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-right"> First year of university through a digital screen was rather unpleasant. Yet it showed me all the opportunities I have missed due to my reserved nature. This piece symbolizes not only my own, but a new beginning for many of the students in the world following the pandemic.
+                            </p>
+                            <p class=" fs-400 ff-sans-cond text-gray text-right"><span
+                                    class="text-yellow">Medium:</span> Photoshop</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-left">August 2021</h4>
+                        </div>
+                        <div class="img-wrapper zoomables flex">
+                            <img class="drawings-vertical" src="assets/images/illustration/awaken.png" alt="">
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item flex">
+                        <div class="img-wrapper zoomables flex">
+                            <img class="drawings-vertical" src="assets/images/illustration/up.png" alt="">
+                        </div>
+                        <div class="item-description item-description-vertical">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Up</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">Upwards we go.</p>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                                Photoshop</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">April 2021</h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item flex">
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img class="drawings-horizontal" src="assets/images/illustration/walk-the-talk.png" alt="">
+                        </div>
+                        <div class="item-description item-description-horizontal">
+                            <h3 class="fs-500 ff-serif text-yellow">Walk The Talk</h3>
+                            <p class="fs-400 ff-sans-cond text-gray">Demotivated during the pandemic, I challenged myself to work on a fully detailed digital
+                                drawing. The man depicted ties his
+                                shoes before departing from his homey village to embark on an unknown
+                                journey ahead.</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">June 2020</h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item flex">
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img class="drawings-horizontal" src="assets/images/illustration/out-of-reach.jpg" alt="">
+                        </div>
+                        <div class="item-description item-description-horizontal">
+                            <h3 class="fs-500 ff-serif text-yellow">Out Of Reach</h3>
+                            <p class="fs-400 ff-sans-cond text-gray">My first ever digital drawing piece</p>
+                            <p class="fs-400 ff-sans-cond text-gray">Following the Stoneman Douglas High School
+                                shooting, this digital painting was created in critique of the United States' flaws in
+                                their firearm regulations and laws. Obtaining a firearm for a
+                                minor is comparable to a child reaching for a jar of cookie in a tall cupboard.</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">April 2020</h4>
+                        </div>
+                    </div>
+                    <!--                END SECTION BUTTON  -->
+                    <div class="line"></div>
+                    <h3 class="return-discipline-text pointer-cursor fs-500 ff-serif text-gray"> Back to Discipline
+                        Selection</h3>
+                    <div class="line-half"></div>
+                    <div class="line-quarter"></div>
+                </div>
+            </div>
+
+            <div class="bottom-left-corner-lines">
+                <div class="bottom-overlap-line"></div>
+                <div class="left-overlap-line"></div>
+            </div>
+        </section>
+
+        <!-- Graphic Design Section  -->
+        <section class="no-display discipline-sections">
+            <div class="top-right-corner-lines">
+                <div class="top-overlap-line"></div>
+                <div class="right-overlap-line"></div>
+            </div>
+
+            <div id="graphic-design-section" class="sections">
+                <div class="content-area-90">
+                    <div>
+                        <h2 class="fs-600 ff-serif text-yellow inline">Graphic Design</h2>
+                        <!-- <div class="star-wrapper">
+                            <img class="star" src="assets/images/star.png" alt="">
+                        </div> -->
+                    </div>
+
+                    <div class="item flex">
+                        <div class="img-wrapper-2 square-wrapper zoomables flex">
+                            <img class="drawings-vertical" src="assets/images/graphic-design/war.png" alt="">
+                        </div>
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Red Winter</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">I spot red snow on my window this year.
+                                It's still red, almost as if its proud. To think that we'd go backwards in 2022</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">April 2022</h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item flex">
+                        <div class="img-wrapper zoomables flex">
+                            <img class="drawings-vertical"
+                                src="assets/images/graphic-design/biodiversity-orthogonal.jpg" alt="">
+                        </div>
+                        <div class="img-wrapper zoomables flex">
+                            <img class="drawings-vertical" src="assets/images/graphic-design/biodiversity-diagonal.jpg"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="item flex">
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img class="drawings-vertical" src="assets/images/graphic-design/biodiversity-freeform.jpg"
+                                alt="">
+                        </div>
+                        <div class="item-description item-description-horizontal">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Biodiversity Loss Posters</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">These three posters aim to raise
+                                awareness about biodiversity loss as we play god in our coexistence with the animal
+                                kingdom. This choice not only endanger species but to our own as well. Similar to a
+                                domino chain, human is merely one of the many pieces and we will collapse if the chain
+                                falters. By applying humanity’s egoism and interest in survival to the issue, the three
+                                design address the issue on a personal touch.</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">November 2020 </h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item flex">
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img class="drawings-vertical" src="assets/images/graphic-design/design-prompts.jpg" alt="">
+                        </div>
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Design Prompts</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">Designing my names as if: I have hiccups, I'm a magician, I have COVID, I'm a TV evangelist, I'm a chameleon, I use serif font. </p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">October 2020</h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <!-- <div class="item flex">
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img class="drawings-vertical" src="assets/images/graphic-design/design-principles.jpg"
+                                alt="">
+                        </div>
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Design Principles</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">6 design principles and my
+                                interpretations of them.</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">September 2020</h4>
+                        </div>
+                    </div> -->
+                    <!--                END SECTION BUTTON  -->
+                    <div class="line"></div>
+                    <h3 class="return-discipline-text pointer-cursor fs-500 ff-serif text-gray"> Back to Discipline
+                        Selection</h3>
+
+                    <div class="line-half"></div>
+                    <div class="line-quarter"></div>
+                </div>
+
+            </div>
+        </section>
+        <!-- 3D Modelling SECTION  -->
+        <section class="no-display discipline-sections">
+            <div class="top-right-corner-lines">
+                <div class="top-overlap-line"></div>
+                <div class="right-overlap-line"></div>
+            </div>
+
+            <div id="3d-modelling-section" class="sections">
+                <div class="content-area-90">
+                    <div>
+                        <h2 class="fs-600 ff-serif text-yellow inline">3D Modelling</h2>
+                        <!-- <div class="star-wrapper">
+                            <img class="star" src="assets/images/star.png" alt="">
+                        </div> -->
+                    </div>
+
+                    <div class="item gap flex">
+                        <p class="fs-400 text-gray ff-sans-cond">Slide it to see!</p>
+                        <div class="img-wrapper-slider flex">
+                            <img src="assets/images/3d-modelling/PercyInes_Environment_Reference.png" alt="">
+
+                            <img src="assets/images/3d-modelling/PercyInes_Environment_Reference.png" alt="">
+                            <img class="my-img" src="assets/images/3d-modelling/PercyInes_Environment_Render.png">
+                            <input type="range" min="0" max="100" value="50" class="slider" oninput="slide()">
+                        </div>
+
+                        <!-- <div class="img-wrapper-2 flex">
+                            <video class="drawings-horizontal" controls>
+                                <source src="assets/images/3d-modelling/FinalRender.mp4" type="video/mp4">
+                            </video>
+                        </div> -->
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Futurebound Vaporwave Lounge
+                            </h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">In collaboration with Ines Pioselli.
+                            </p>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">Blasted with neon pink and teal, the
+                                empty lobby of Montreal's famous performing art centre is transformed into a relaxing
+                                and eye catching place of rest and wait.</p>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                                Blender, Photoshop, Adobe Substance Painter.
+                            </p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">April 2022</h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item gap flex">
+                        <!-- <div class="img-wrapper-2 flex">
+                            <video class="drawings-horizontal" controls>
+                                <source src="assets/images/3d-modelling/Percy_VideoPrototype.mp4" type="video/mp4">
+                            </video>
+
+                        </div> -->
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img src="assets/images/3d-modelling/godric_dating_app_prototype.png" alt="">
+                        </div>
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Facade the Modern Digital Dating App</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">
+                                <a href="https://drive.google.com/file/d/1_16WltrQtVvUjGvBAhM4WSIoCz9LWQE5/view?usp=sharing" target="_blank" class="text-yellow">A 1 minute satire 3D animation</a>  featuring Facade, a dating app prototype that mocks
+                                modern matchmaking applications where users are clowns, constantly putting on a facade
+                                to market themselves.
+                            </p>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                                Blender, Adobe Substance Painter, Mixamo (Rigging), Free Online 3D Models</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">January 2022</h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item gap flex">
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img src="assets/images/3d-modelling/facial-expressions.png" alt="">
+                        </div>
+
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Self Portrait Face Rig</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">A 3D model of my bust with a bit of
+                                flair and featured in silly </p>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                                Blender</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">March 2022</h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item gap flex">
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img src="assets/images/3d-modelling/beer.jpg" alt="">
+                        </div>
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Photorealism Attempt</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">The goal was to create a photorealistic beer.  </p>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                                Blender</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">February 2022</h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item gap flex">
+                        <!-- <div class="img-wrapper-2 flex">
+                            <video class="drawings-horizontal" controls>
+                                <source src="assets/images/3d-modelling/Godric_WalkCycle.mp4" type="video/mp4">
+                            </video>
+                        </div> -->
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img src="assets/images/3d-modelling/godric_walk_cycle.jpg" alt="">
+                        </div>
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img src="assets/images/3d-modelling/Godric_Design.png" alt="">
+                        </div>
+
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Godric Walk Cycle</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">
+                                Godric was made from the simple 2D concept drawing above. He was my first sculpture on blender. Thanks to previous experience in illustration, my subpar knowledge in human anatomy simplified and accelerated the sculpting process.
+                            </p>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">
+                                It was a great joy <a href="https://drive.google.com/file/d/1Zu1wHQBL9ow0j0B_R_3H4FumklLoIOYX/view?usp=sharing"  target="_blank" class="text-yellow"> bringing him to life</a> through tedious rigging and animating. 
+                            </p>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                                Blender, Photoshop</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">January 2022</h4>
+                        </div>
+                    </div>
+
+                    <div class="line"></div>
+                    <div class="item gap flex">
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img src="assets/images/3d-modelling/robot.jpg" alt="">
+                        </div>
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img src="assets/images/3d-modelling/robot-components.png" alt="">
+                        </div>
+
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Making of a Robot</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">Scraps into robot what more is there to
+                                say? Tinkering with mechanical parts, piecing them together and a clean paint over.</p>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left"> <span
+                                    class="text-yellow">Medium:</span> Blender, Adobe Substance Painter.</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">October 2021</h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item gap flex">
+                        <!-- <div class="img-wrapper-2 flex">
+                            <video class="drawings-horizontal" controls>
+                                <source src="assets/images/3d-modelling/LowPoly_Diorama.mp4" type="video/mp4">
+                            </video>
+                        </div> -->
+
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left"> A Withering Fire - Low Poly Diorama</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">
+                               The Good, The Bad and the Dying. Observe it in <a href="https://drive.google.com/file/d/1JdnNOyXHlrN58Tz_TfH45CT2vzMq7G3x/view?usp=sharing" target="_blank" class="text-yellow">360 view turn table  </a></p>
+                            
+                            <p class=" fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                                Blender, Adobe Substance Painter</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">September 2022</h4>
+                        </div>
+                    </div>
+                    
+                    <!--                END SECTION BUTTON  -->
+                    <div class="line"></div>
+                    <h3 class="return-discipline-text pointer-cursor fs-500 ff-serif text-gray"> Back to Discipline
+                        Selection</h3>
+                    <div class="line-half"></div>
+                    <div class="line-quarter"></div>
+                </div>
+            </div>
+
+            <div class="bottom-left-corner-lines">
+                <div class="bottom-overlap-line"></div>
+                <div class="left-overlap-line"></div>
+            </div>
+        </section>
+        <!-- GAME DESIGN SECTION  -->
+        <section class="no-display discipline-sections">
+            <div class="top-right-corner-lines">
+                <div class="top-overlap-line"></div>
+                <div class="right-overlap-line"></div>
+            </div>
+
+            <div id="game-design-section" class="sections">
+                <div class="content-area-90">
+                    <div>
+                        <h2 class="fs-600 ff-serif text-yellow inline">Game Design</h2>
+                        <!-- <div class="star-wrapper">
+                            <img class="star" src="assets/images/star.png" alt="">
+                        </div> -->
+                    </div>
+
+                    <div class="item gap flex">
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img class="drawings-horizontal" src="assets/images/game-dev/figment-imagination.png"
+                                alt="">
+                        </div>
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Figment of Imagination</h3>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left">While Godric may always appear
+                                collected, not a soul knows what goes through his mind. Why don't you <a
+                                    class="fs-400 ff-sans-cond text-yellow text-left" target="_blank"
+                                    href="https://percynguyen.itch.io/figment-of-imagination">take a walk</a> and see
+                                what he's up to? </p>
+                            <p class="fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                                Unity, Blender, Adobe Substance Painter, Premiere Pro, Online 3D Models.</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">March 2022</h4>
+                        </div>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <div class="img-wrapper-2 zoomables flex">
+                        <img class="drawings-horizontal" src="assets/images/game-dev/rock-paper-scissors.png" alt="">
+                    </div>
+                    <div class="item gap flex">
+                        <div class="item-description item-description-horizontal">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Voice Recognition Rock, Paper, Scissors
+                            </h3>
+                            <p class="fs-400 ff-sans-cond text-gray text-left">Just <a
+                                    class="fs-400 ff-sans-cond text-yellow text-left" target="_blank"
+                                    href="https://percynguyen7.github.io/cart263/exercises/exercise2/"> a game of rock
+                                    paper scissors.</a> Say GO before your pick. for example, GO ROCK! Keep playing by yelling out Go + Rock/Paper/Scissors! </p>
+                            <p class="fs-400 ff-sans-cond text-gray text-left">Only available in desktop view.</p>
+                            <p class="fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                                p5.js library, Annyang speech recognition library.</p>
+
+                            <h4 class="fs-400 ff-serif text-yellow text-right">March 2021 </h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item gap flex">
+                        <div class="img-wrapper-slider flex">
+                            <img src="assets/images/game-dev/proposal-night.png" alt="">
+
+                            <img src="assets/images/game-dev/proposal-night.png" alt="">
+                            <img class="my-img" src="assets/images/game-dev/proposal-day.png">
+                            <input type="range" min="0" max="100" value="50" class="slider" oninput="slide()">
+                        </div>
+
+
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Proposal Day / Proposal Night</h3>
+                            <p class="fs-400 ff-sans-cond text-gray text-left"> <a
+                                    class="fs-400 ff-sans-cond text-yellow text-left" target="_blank"
+                                    href="https://percynguyen7.github.io/cart253/projects/project1/">Proposal Day</a> is
+                                a short, silly game about the big day when a man goes on his journey to pop the big
+                                question! Two months later, <a class="fs-400 ff-sans-cond text-yellow text-left"
+                                    target="_blank"
+                                    href="https://percynguyen7.github.io/cart253/projects/project2/">Proposal Night</a>
+                                picks up the story with less visuals though more groove and chaos.</p>
+                            <p class="fs-400 ff-sans-cond text-gray text-left">Only available in desktop view. Zoom
+                                in/out if necessary.</p>
+                            <p class="fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                                p5.js library, Photoshop.</p>
+
+                            <h4 class="fs-400 ff-serif text-yellow text-right">October and December 2020 </h4>
+                        </div>
+                    </div>
+                    <!--                END SECTION BUTTON  -->
+                    <div class="line"></div>
+                    <h3 class="return-discipline-text pointer-cursor fs-500 ff-serif text-gray"> Back to Discipline
+                        Selection</h3>
+                    <div class="line-half"></div>
+                    <div class="line-quarter"></div>
+                </div>
+            </div>
+
+            <div class="bottom-left-corner-lines">
+                <div class="bottom-overlap-line"></div>
+                <div class="left-overlap-line"></div>
+            </div>
+        </section>
+        <!-- WEB DEVELOPMENT SECTION  -->
+        <section class="no-display discipline-sections">
+            <div class="top-right-corner-lines">
+                <div class="top-overlap-line"></div>
+                <div class="right-overlap-line"></div>
+            </div>
+            <div id="web-development-section" class="sections">
+                <div class="content-area-90">
+                    <div>
+                        <h2 class="fs-600 ff-serif text-yellow inline">Web Development</h2>
+                        <!-- <div class="star-wrapper">
+                            <img class="star" src="assets/images/star.png" alt="">
+                        </div> -->
+                    </div>
+                    <div class="item gap flex">
+                        <div class="img-wrapper-2 square-wrapper zoomables flex">
+                            <img class="drawings-vertical" src="assets/images/web-dev/nasa-api.png" alt="">
+                        </div>
+
+                        <div class="item-description item-description-horizontal">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Mars Rover and Astronomy Picture of the
+                                Day API</h3>
+                            <p class="fs-400 ff-sans-cond text-gray text-left">Work in collaboration with Valentine
+                                Senegas</p>
+                            <p class="fs-400 ff-sans-cond text-gray text-left">In 2015, NASA launched their API portal
+                                to allow greater public accessity to their discovered data and imagery. <a
+                                    class="fs-400 ff-sans-cond text-yellow text-left" target="_blank"
+                                    href="https://percynguyen7.github.io/cart253/projects/project2/">Pick a date and
+                                    see</a> what what Mars looked like from the lens of a Mars rover!</p>
+                            <p class=" fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                                Photoshop</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">November 2022 </h4>
+                        </div>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <div class="item gap flex">
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img class="drawings-horizontal" src="assets/images/web-dev/letter-to-humanity.png" alt="">
+                        </div>
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Letter to Humanity</h3>
+                            <p class="fs-400 ff-sans-cond text-gray text-left"> Reflecting back on my life and that of
+                                others, I wrote <a class="fs-400 ff-sans-cond text-yellow text-left" target="_blank"
+                                    href="https://hybrid.concordia.ca/TU_E/CART%20345/finalproject/digital.html">a short
+                                    letter to humanity</a>. Written from
+                                my heart, it touches upon the simple roll of dice and the human's fate that it assigns.
+                            </p>
+                            <p class="fs-400 ff-sans-cond text-gray text-left">Currently available in tablet/desktop
+                                view. This project is expected to be expanded, renovated and responsive now that I've
+                                got a few more tricks to show.</p>
+                            <p class="fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                                Jquery, CSS, HTML, Adobe
+                                Illustrator.</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">April 2022</h4>
+                        </div>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <div class="item gap flex">
+                        <div class="img-wrapper-2 zoomables flex">
+                            <img class="drawings-horizontal" src="assets/images/web-dev/homelessness.png" alt="">
+                        </div>
+                        <div class="item-description item-description-horizontal ">
+                            <h3 class="fs-500 ff-serif text-yellow text-left">Homelessness: The Invisible</h3>
+                            <p class="fs-400 ff-sans-cond text-gray text-left">At every metro station in Montreal lays a
+                                homeless man, sheltering away from the heat of summer or the winter cold. I researched
+                                and created a short, informative website tackling the statistics of homelessness in
+                                Canada as well as the causes behind them. It also offers a unique experience that
+                                imitates a fraction of the sufferings that homeless people go through daily. <a
+                                    class="fs-400 ff-sans-cond text-yellow text-left" target="_blank"
+                                    href="https://percynguyen7.github.io/cart211/finalwebsite/home.html"></a>. </p>
+                            <p class="fs-400 ff-sans-cond text-gray text-left">Tip: Navigate through the end of the
+                                "Experience" page carefully to reveal hidden clue.</p>
+                            <p class="fs-400 ff-sans-cond text-gray text-left">Currently available in desktop
+                                view. Will be responsive in the future if time permits. </p>
+                            <p class="fs-400 ff-sans-cond text-gray text-left"><span class="text-yellow">Medium:</span>
+                                Javascript, CSS, HTML, Adobe Illustrator.</p>
+                            <h4 class="fs-400 ff-serif text-yellow text-right">December 2021</h4>
+                        </div>
+                    </div>
+                    <!--                END SECTION BUTTON  -->
+                    <div class="line"></div>
+                    <h3 class="return-discipline-text pointer-cursor fs-500 ff-serif text-gray"> Back to Discipline
+                        Selection</h3>
+                    <div class="line-half"></div>
+                    <div class="line-quarter"></div>
+                </div>
+            </div>
+
+            <div class="bottom-left-corner-lines">
+                <div class="bottom-overlap-line"></div>
+                <div class="left-overlap-line"></div>
+            </div>
+        </section>
+
+        <!-- <div class="title-"> </div> -->
+        <!-- LINES -->
+        <div class="line-quarter align-right"></div>
+        <div class="line-half align-right "></div>
+        <div class="line"></div>
+
+
+        <div class="greet-left-line"></div>
+        <section id="contact-section" class="contact">
+            <div class="content-area-90">
+                <div class="contact-wrapper">
+                    <h2 class="fs-600 ff-serif text-yellow">Contact</h2>
+                    <div class="social-media-wrapper flex" target="_blank">
+                    <a href="https://www.linkedin.com/in/vinh-tuan-dat-nguyen-75696b24a/" class="fs-400 ff-sans-cond text-gray" target="_blank">LinkedIn</a>
+                    <a href="mailto:percy.nguyen7@email.com" class="fs-400 ff-sans-cond text-gray">Email</a>
+                    
+                    <a href="https://www.instagram.com/percyinthehouse/" target="_blank"
+                        class="fs-400 ff-sans-cond text-gray">Instagram</a>
+                    </div>
+                </div>
+                <div class="marquee-wrapper hover-stop">
+
+                    <div class="marquee">
+                        <span class="fs-700 ff-serif text-yellow">Get in touch</span>
+                    </div>
+
+                    <div class="marquee marquee2">
+                        <span class="fs-700 ff-serif text-yellow">Get In Touch</span>
+                    </div>
+
+                    <!-- <div class="marquee marquee3">
+                    <span class="fs-700 ff-sans-cond text-gray">this is meeeeee</span>
+                </div> -->
+                </div>
+                <div class="clown-flex-wrapper flex dance-trigger">
+                    <img src="assets/images/clown/clown-flex.png" alt="">
+                </div>
+
+                <div class="line"></div>
+         
+            </div>
+        </section>
+
+
+    </div>
+
+</body>
+
+</html>
