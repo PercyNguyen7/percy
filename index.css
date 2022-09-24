@@ -651,10 +651,9 @@ body{
     transition: all 1s;
 }
 .logo-wrapper{
-    width:clamp(3rem,5vw,4.5rem);
+    width:clamp(2.25rem,5vw,3.5rem);
     aspect-ratio: 1;
     z-index:9999;
-    /* background-color: red; */
     transition: all 1s;
 }
 /* .logo{
