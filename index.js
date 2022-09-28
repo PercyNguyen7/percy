@@ -296,23 +296,23 @@ experienceButton.addEventListener('click',()=>{
     }
 });
 
-//     document.addEventListener("DOMContentLoaded", () => {
-//     setTimeout(()=>{
-//         console.log('page is fully loaded');
-//         leftDoor.classList.add("slide-out-left");
-//         rightDoor.classList.add("slide-out-right");
-//         loadingPageWrapper.classList.add("no-interaction");
-//     },2000);
+    document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(()=>{
+        console.log('page is fully loaded');
+        leftDoor.classList.add("slide-out-left");
+        rightDoor.classList.add("slide-out-right");
+        loadingPageWrapper.classList.add("no-interaction");
+    },2000);
   
-//   });
+  });
 
 
 
   window.addEventListener('load', () => {
     console.log('page is fully loaded');
 
-    leftDoor.classList.add("slide-out-left");
-    rightDoor.classList.add("slide-out-right");
-    loadingPageWrapper.classList.add("no-interaction");
+    // leftDoor.classList.add("slide-out-left");
+    // rightDoor.classList.add("slide-out-right");
+    // loadingPageWrapper.classList.add("no-interaction");
   });
 
