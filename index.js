@@ -302,7 +302,7 @@ experienceButton.addEventListener('click',()=>{
         leftDoor.classList.add("slide-out-left");
         rightDoor.classList.add("slide-out-right");
         loadingPageWrapper.classList.add("no-interaction");
-    },2000);
+    },000);
   
   });
 
