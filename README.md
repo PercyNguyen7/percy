@@ -1,5 +1,5 @@
-# Portfolio-Website
- Percy's portfolio website!
+# Percy (Vinh Tuan Dat Nguyen)
+ Welcome to my Github Repository!
 
 
 ## Percy Reading List
